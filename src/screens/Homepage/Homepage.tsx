@@ -1,4 +1,5 @@
 import React from "react";
+import { ContactForm } from "../../components/ContactForm";
 
 export const Homepage = (): JSX.Element => {
   return (
@@ -345,107 +346,7 @@ export const Homepage = (): JSX.Element => {
             OPORTUNIDADES E FAZ CRESCER O SEU NEGÓCIO.
           </div>
 
-          <div className="relative w-[688.82px] h-[900.21px] mb-[-265.62px]">
-            <div className="flex flex-col w-[689px] h-[631px] items-start absolute top-[92px] -left-px bg-basiconyx rounded-[9.53px] overflow-hidden border-[0.79px] border-solid border-[#383737] shadow-window-shadow">
-              <div className="relative self-stretch w-full h-[42.88px] bg-basiconyx rounded-[9.53px_9.53px_0px_0px] overflow-hidden shadow-[inset_0px_-0.79px_0px_#ffffff08]">
-                <div className="absolute top-[calc(50.00%_-_7px)] left-[calc(50.00%_-_51px)] font-inter-16-medium font-[number:var(--inter-16-medium-font-weight)] text-white text-[length:var(--inter-16-medium-font-size)] text-center tracking-[var(--inter-16-medium-letter-spacing)] leading-[var(--inter-16-medium-line-height)] whitespace-nowrap [font-style:var(--inter-16-medium-font-style)]">
-                  Nova Mensagem
-                </div>
-
-                <div className="inline-flex h-[17px] items-center gap-[6.35px] absolute top-[13px] left-[13px]">
-                  <div className="relative w-[9.53px] h-[9.53px] bg-[#f63636] rounded-[4.76px] border-[0.79px] border-solid border-[#d52828]" />
-
-                  <div className="relative w-[9.53px] h-[9.53px] bg-[#f6c036] rounded-[4.76px] border-[0.79px] border-solid border-[#cea335]" />
-
-                  <div className="relative w-[9.53px] h-[9.53px] bg-[#68f636] rounded-[4.76px] border-[0.79px] border-solid border-[#52cc27]" />
-                </div>
-              </div>
-
-              <div className="flex flex-col items-center justify-center gap-[25.41px] px-[25.41px] py-[7.94px] relative flex-1 self-stretch w-full grow">
-                <div className="flex flex-col items-start gap-[12.7px] relative self-stretch w-full flex-[0_0_auto]">
-                  <div className="flex flex-col items-start gap-[12.7px] relative self-stretch w-full flex-[0_0_auto] bg-basiconyx">
-                    <div className="flex items-start gap-[6.35px] relative self-stretch w-full flex-[0_0_auto]">
-                      <div className="relative w-fit mt-[-0.79px] font-inter-16-medium font-[number:var(--inter-16-medium-font-weight)] text-basicwhite text-[length:var(--inter-16-medium-font-size)] tracking-[var(--inter-16-medium-letter-spacing)] leading-[var(--inter-16-medium-line-height)] whitespace-nowrap [font-style:var(--inter-16-medium-font-style)]">
-                        Email:
-                      </div>
-
-                      <div className="relative flex-1 mt-[-0.79px] font-inter-16-regular font-[number:var(--inter-16-regular-font-weight)] text-basicmedium-gray text-[length:var(--inter-16-regular-font-size)] tracking-[var(--inter-16-regular-letter-spacing)] leading-[var(--inter-16-regular-line-height)] [font-style:var(--inter-16-regular-font-style)]">
-                        Insira o seu email
-                      </div>
-                    </div>
-
-                    <img
-                      className="relative self-stretch w-full h-px mb-[-1.00px]"
-                      alt="Line"
-                      src="/line-4-1.svg"
-                    />
-                  </div>
-
-                  <div className="flex flex-col items-start gap-[12.7px] relative self-stretch w-full flex-[0_0_auto] bg-basiconyx">
-                    <div className="flex items-start gap-[6.35px] relative self-stretch w-full flex-[0_0_auto]">
-                      <div className="relative w-fit mt-[-0.79px] font-inter-16-medium font-[number:var(--inter-16-medium-font-weight)] text-basicwhite text-[length:var(--inter-16-medium-font-size)] tracking-[var(--inter-16-medium-letter-spacing)] leading-[var(--inter-16-medium-line-height)] whitespace-nowrap [font-style:var(--inter-16-medium-font-style)]">
-                        Nome:
-                      </div>
-
-                      <div className="relative flex-1 mt-[-0.79px] font-inter-16-regular font-[number:var(--inter-16-regular-font-weight)] text-basicmedium-gray text-[length:var(--inter-16-regular-font-size)] tracking-[var(--inter-16-regular-letter-spacing)] leading-[var(--inter-16-regular-line-height)] [font-style:var(--inter-16-regular-font-style)]">
-                        Insira o seu nome
-                      </div>
-                    </div>
-
-                    <img
-                      className="relative self-stretch w-full h-px mb-[-1.00px]"
-                      alt="Line"
-                      src="/line-4-1.svg"
-                    />
-                  </div>
-
-                  <div className="flex flex-col items-start gap-[12.7px] relative self-stretch w-full flex-[0_0_auto] bg-basiconyx">
-                    <div className="flex items-start gap-[6.35px] relative self-stretch w-full flex-[0_0_auto]">
-                      <div className="relative w-fit mt-[-0.79px] font-inter-16-medium font-[number:var(--inter-16-medium-font-weight)] text-basicwhite text-[length:var(--inter-16-medium-font-size)] tracking-[var(--inter-16-medium-letter-spacing)] leading-[var(--inter-16-medium-line-height)] whitespace-nowrap [font-style:var(--inter-16-medium-font-style)]">
-                        Assunto:
-                      </div>
-
-                      <div className="relative flex-1 mt-[-0.79px] font-inter-16-regular font-[number:var(--inter-16-regular-font-weight)] text-basicmedium-gray text-[length:var(--inter-16-regular-font-size)] tracking-[var(--inter-16-regular-letter-spacing)] leading-[var(--inter-16-regular-line-height)] [font-style:var(--inter-16-regular-font-style)]">
-                        Insira o assunto
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <img
-                  className="relative w-[686.82px] h-[4.76px] ml-[-25.41px] mr-[-25.41px]"
-                  alt="Line"
-                  src="/line-4.svg"
-                />
-
-                <div className="flex items-start gap-[7.94px] p-[19.06px] relative flex-1 self-stretch w-full grow bg-darkmain-bg rounded-[9.53px] overflow-hidden shadow-window-shadow">
-                  <div className="relative flex-1 self-stretch mt-[-0.79px] font-inter-16-regular font-[number:var(--inter-16-regular-font-weight)] text-basicmedium-gray text-[length:var(--inter-16-regular-font-size)] tracking-[var(--inter-16-regular-letter-spacing)] leading-[var(--inter-16-regular-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:15] [-webkit-box-orient:vertical] [font-style:var(--inter-16-regular-font-style)]">
-                    Escreva a sua mensagem aqui
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative self-stretch w-full h-[81.78px] bg-[#161616]">
-                <div className="relative top-[23px] left-[540px] w-[109px] h-9">
-                  <div className="absolute top-0 left-0 w-[107px] h-9 bg-blue rounded-[25.41px]" />
-
-                  <div className="absolute top-2 left-[27px] [font-family:'Inter',Helvetica] font-extrabold text-white text-[16.7px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
-                    Enviar
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="absolute top-0 left-[114px] [font-family:'Inter',Helvetica] font-extrabold text-grey text-[47.6px] text-center tracking-[0] leading-[normal]">
-              Entrar em Contacto
-            </div>
-
-            <img
-              className="absolute top-[821px] left-7 w-[640px] h-[79px]"
-              alt="Frame"
-              src="/frame-2089.svg"
-            />
-          </div>
+          <ContactForm />
         </div>
       </div>
 

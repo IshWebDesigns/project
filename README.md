@@ -29,3 +29,52 @@ If you are satisfied with the result, you can finally build the project for rele
 ```
 npm run build
 ```
+
+## EmailJS Setup
+
+To enable the contact form functionality, you need to set up EmailJS:
+
+1. **Create an EmailJS account**: Go to [https://www.emailjs.com/](https://www.emailjs.com/) and sign up
+
+2. **Add an email service**: 
+   - Go to Email Services and click "Add New Service"
+   - Choose your email provider (Gmail, Outlook, etc.)
+   - Follow the setup instructions
+
+3. **Create an email template**:
+   - Go to Email Templates and click "Create New Template"
+   - Use these template variables in your email template:
+     - `{{from_name}}` - sender's name
+     - `{{from_email}}` - sender's email
+     - `{{subject}}` - email subject
+     - `{{message}}` - email message
+     - `{{to_name}}` - your name (recipient)
+
+4. **Get your credentials**:
+   - Service ID: Found in your Email Services
+   - Template ID: Found in your Email Templates
+   - Public Key: Found in Account > API Keys
+
+5. **Update the configuration**:
+   - Open `src/config/emailjs.ts`
+   - Replace `YOUR_SERVICE_ID`, `YOUR_TEMPLATE_ID`, and `YOUR_PUBLIC_KEY` with your actual values
+
+### Example Email Template
+
+```
+Subject: Nova mensagem de {{subject}}
+
+Olá {{to_name}},
+
+Recebeu uma nova mensagem através do seu website:
+
+Nome: {{from_name}}
+Email: {{from_email}}
+Assunto: {{subject}}
+
+Mensagem:
+{{message}}
+
+---
+Esta mensagem foi enviada através do formulário de contacto do seu website.
+```
